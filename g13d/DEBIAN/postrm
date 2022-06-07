@@ -1,0 +1,6 @@
+echo "Making sure the g13d service is not running ..."
+systemctl stop g13
+echo "Removing user from input group ..."
+gpasswd -d g13 input
+echo "Removing user and group ..."
+getent passwd g13 > /dev/null 2>&1 && userdel g13

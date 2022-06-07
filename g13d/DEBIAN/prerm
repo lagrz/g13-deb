@@ -1,0 +1,2 @@
+echo "Removing tmpfiles ..."
+systemd-tmpfiles --remove /usr/lib/tmpfiles.d/g13.conf

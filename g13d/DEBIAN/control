@@ -1,0 +1,6 @@
+Package: g13d-git
+Version: 1.0.4.r0.g0a8d6e8-1
+Maintainer: K. Hampf 
+Homepage: https://github.com/khampf/g13
+Architecture: amd64
+Description: Userspace driver for the Logitech G13 Keyboard
